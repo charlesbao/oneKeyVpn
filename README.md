@@ -1,5 +1,5 @@
 # oneKeyVpn
-use for BandwagonHost in centos6 minimal. 64MB ram vps
+> use for BandwagonHost in centos6 minimal. 64MB ram vps
 
 This script will install pptp first and shadowsocks
 
