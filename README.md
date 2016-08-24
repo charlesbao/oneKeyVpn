@@ -12,6 +12,8 @@ finally it will change your ssh port on 22.
 	chmod 777 vpn.sh
 	./vpn.sh
 #### with wget
-	wget http://charlesbao.com/items/vpn.sh
+	wget https://github.com/charlesbao/oneKeyVpn/archive/master.zip
+	unzip oneKeyVpn-master
+	cd oneKeyVpn-master
 	chmod 777 vpn.sh
 	./vpn.sh
