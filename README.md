@@ -21,3 +21,7 @@ finally it will change your ssh port on 22.
 	wget http://www.charlesbao.com/items/vpn.sh
 	chmod 777 vpn.sh
 	./vpn.sh
+
+## How to speed up your server
+See more `net-speeder installation`.Please link to
+[https://github.com/charlesbao/onKeySpeedUp](https://github.com/charlesbao/onKeySpeedUp)
