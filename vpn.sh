@@ -37,26 +37,30 @@ function pre_install(){
 
 function read_input(){
 
-	echo "Please input username for pptp:"
-    read -p "(Default username: iwofan): " VPN_USER 
-    if [ "$VPN_USER" = "" ]; then
-        VPN_USER="iwofan"
-    fi
-    echo "Please input password for pptp:"
-    read -p "(Default password: 123123): " VPN_PASS 
-    if [ "$VPN_PASS" = "" ]; then
-        VPN_PASS="123123"
-    fi
-	echo "Please input password for shadowsocks:"
-    read -p "(Default password: howhost.me):" SHADOWSOCKS_PASS
-    if [ "$SHADOWSOCKS_PASS" = "" ]; then
-        SHADOWSOCKS_PASS="howhost.me"
-    fi
-    echo "Please input IP for shadowsocks:"
-    read -p "(Default IP: ${VPN_IP}):" SHADOWSOCKS_IP
-    if [ "$SHADOWSOCKS_IP" = "" ]; then
-        SHADOWSOCKS_IP="${VPN_IP}"
-    fi
+	VPN_USER="iwofan"
+	VPN_PASS="123123"
+	SHADOWSOCKS_PASS="howhost.me"
+	SHADOWSOCKS_IP="${VPN_IP}"
+	# echo "Please input username for pptp:"
+ #   read -p "(Default username: iwofan): " VPN_USER 
+ #   if [ "$VPN_USER" = "" ]; then
+ #       VPN_USER="iwofan"
+ #   fi
+ #   echo "Please input password for pptp:"
+ #   read -p "(Default password: 123123): " VPN_PASS 
+ #   if [ "$VPN_PASS" = "" ]; then
+ #       VPN_PASS="123123"
+ #   fi
+	# echo "Please input password for shadowsocks:"
+ #   read -p "(Default password: howhost.me):" SHADOWSOCKS_PASS
+ #   if [ "$SHADOWSOCKS_PASS" = "" ]; then
+ #       SHADOWSOCKS_PASS="howhost.me"
+ #   fi
+ #   echo "Please input IP for shadowsocks:"
+ #   read -p "(Default IP: ${VPN_IP}):" SHADOWSOCKS_IP
+ #   if [ "$SHADOWSOCKS_IP" = "" ]; then
+ #       SHADOWSOCKS_IP="${VPN_IP}"
+ #   fi
 	clear
 }
 
