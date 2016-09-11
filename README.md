@@ -1,7 +1,8 @@
 # oneKeyVpn
 > The script setup on centos6 x86/x64 minimal
 
-One key to install pptp l2tp ipsec ikev2(no test) and shadowsocks!
+
+ONE KEY to install pptp l2tp ipsec ikev2(no test) and shadowsocks on openvz/kvm/xen vps!
 
 ## How to use this script?
 #### with git
