@@ -1,26 +1,18 @@
 # oneKeyVpn
-> use for BandwagonHost in centos6 minimal. 64MB ram vps
+> The script setup on centos6 x64 minimal
 
-This script will install pptp first and shadowsocks
-
-finally it will change your ssh port on 22.
+One key to install pptp l2tp ipsec ikev2(untest) and shadowsocks!
 
 ## How to use this script?
 #### with git
 	git clone https://github.com/charlesbao/oneKeyVpn
 	cd oneKeyVpn
-	chmod 777 vpn.sh
-	./vpn.sh
+	bash one_key_vpn.sh
 #### with wget on github
 	wget https://github.com/charlesbao/oneKeyVpn/archive/master.zip
 	unzip master
 	cd master
-	chmod 777 vpn.sh
-	./vpn.sh
-#### with wget on my own server
-	wget http://www.charlesbao.com/assets/items/vpn.sh
-	chmod 777 vpn.sh
-	./vpn.sh
+	bash one_key_vpn.sh
 
 ## How to speed up your server
 See more `net-speeder installation`.Please link to
